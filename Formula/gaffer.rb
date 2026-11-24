@@ -1,28 +1,28 @@
 class Gaffer < Formula
   desc "Test analytics and intelligence for your CI pipeline"
   homepage "https://gaffer.sh"
-  version "0.10.1"
+  version "0.10.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.1/gaffer-aarch64-apple-darwin.tar.gz"
-      sha256 "8ef4f6067bc3ed95f3e3a71cd2d503d25d2786aca4920097a9ca23c2aa8182ec"
+      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.2/gaffer-aarch64-apple-darwin.tar.gz"
+      sha256 "930d715cf0919bbdad459edb4c4b657c1764b22fac62b8a2ea5e38230b5f2411"
     end
     on_intel do
-      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.1/gaffer-x86_64-apple-darwin.tar.gz"
-      sha256 "4627652e3200231385f33b330de6f9c0d020ca84f15795edbc72a61fd7900d21"
+      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.2/gaffer-x86_64-apple-darwin.tar.gz"
+      sha256 "235b73d26f4c80c5c838f3416d9b871dd633ac39978f3878c530137a75d0c710"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.1/gaffer-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ba9835a4a4bc4708e7d51cc4b23133129e4ed63656f50caf6d0c688869c9106f"
+      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.2/gaffer-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "33be94e3c45565fb4a5af13ae2ab3208c92608250db63938cb43d8a44b74e343"
     end
     on_intel do
-      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.1/gaffer-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "979120afcbfa25110e14a7323bafee939f17b3be484457965bef81eee8c055a7"
+      url "https://github.com/gaffer-sh/gaffer/releases/download/cli-v0.10.2/gaffer-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f827992a62a2f2c8c4a6c3105a2a17864120c71d43e3848d61d8e022eda2161f"
     end
   end
 
